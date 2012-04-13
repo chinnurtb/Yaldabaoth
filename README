@@ -1,0 +1,44 @@
+----------------------------------------------
+		  Yaldabaoth
+		    v0.001
+
+by Piotr Nosek
+----------------------------------------------
+
+--- TABLE OF CONTENTS ---
+
+1. Overview
+2. Requirements
+3. Compilation
+4. TODO list
+5. Buglist
+6. Version history
+7. Links and references
+
+--- 1. Overview ---
+Yaldabaoth is a MMORPG engine written in Erlang. The aim of this project is to create very scalable engine with flexible structure. General goals in development process are:
+1. Provide simple client-server communication
+2. Create structures for classic general RPG: character system with stats, skills etc.
+3. Support seamless world map
+... (to be continued)
+
+--- 2. Requirements ---
+- OTP R15B01 (not tested with previous versions)
+
+--- 3. Compilation ---
+
+--- 4. TODO list ---
+- server for accepting connections
+- authentication module
+- client in Erlang or C for testing
+- communication protocol between client and server
+
+--- 5. Buglist ---
+
+--- 6. Version history ---
+
+==> v0.001 alpha <==
+- just empty project :)
+
+--- 7. Links and references ---
+
