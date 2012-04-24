@@ -1,0 +1,2 @@
+-define(HELLO_MSG, <<0,0,0,0,0,0,0,0>>).
+-define(HELLO_RSP, <<0,0,0,0,0,0,0,1>>).

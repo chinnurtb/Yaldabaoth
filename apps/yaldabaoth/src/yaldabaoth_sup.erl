@@ -24,5 +24,6 @@ start_link() ->
 %% ===================================================================
 
 init([]) ->
-    {ok, { {one_for_one, 5, 10}, []} }.
+    FrontServer = { front_server, {front_server, start, [6666]}, permanent, 1000, worker, [front_server] },
+    {ok, { {one_for_one, 5, 10}, [FrontServer]} }.
 
